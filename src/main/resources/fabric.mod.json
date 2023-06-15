@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "endertransport",
+  "version": "${version}",
+  "name": "Ender Transport",
+  "description": "Moving around your world will never be faster!",
+  "authors": [
+    "Noah Perry"
+  ],
+  "contact": {
+    "website": "https://tehcn.github.io/EnderTransport",
+    "repo": "https://github.com/noah/EnderTransport"
+  },
+  "license": "MIT",
+  "icon": "assets/EnderTransport/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.tehcn.endertransport.client.EnderTransportClient"
+    ],
+    "main": [
+      "dev.tehcn.endertransport.EnderTransport"
+    ]
+  },
+  "mixins": [
+    "endertransport.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
