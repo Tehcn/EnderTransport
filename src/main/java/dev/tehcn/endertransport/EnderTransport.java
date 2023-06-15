@@ -6,6 +6,7 @@ import dev.tehcn.endertransport.block.entity.ModBlockEntities;
 import dev.tehcn.endertransport.item.ModItemGroup;
 import dev.tehcn.endertransport.item.ModItems;
 import dev.tehcn.endertransport.recipe.ModRecipes;
+import dev.tehcn.endertransport.screen.ModScreenHandlers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,5 +25,6 @@ public class EnderTransport implements ModInitializer {
         ModArmorSets.registerArmorSets();
         ModBlockEntities.registerBlockEntities();
         ModRecipes.registerRecipes();
+        ModScreenHandlers.registerScreenHandlers();
     }
 }

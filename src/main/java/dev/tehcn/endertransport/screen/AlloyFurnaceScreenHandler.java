@@ -51,7 +51,7 @@ public class AlloyFurnaceScreenHandler extends ScreenHandler {
     public int getScaledFuel() {
         int fuel = this.propertyDelegate.get(2);
         int fuelCapacity = this.propertyDelegate.get(3);
-        int fuelBarSize = 55; // TODO: get fuel bar size from gui texture
+        int fuelBarSize = 55;
 
         return fuelCapacity != 0 && fuel != 0 ? fuel * fuelBarSize / fuelCapacity : 0;
     }
