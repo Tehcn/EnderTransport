@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "endertransport:block/alloy_furnace"
+    },
+    "facing=south": {
+      "model": "endertransport:block/alloy_furnace",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "endertransport:block/alloy_furnace",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "endertransport:block/alloy_furnace",
+      "y": 270
+    }
+  }
+}

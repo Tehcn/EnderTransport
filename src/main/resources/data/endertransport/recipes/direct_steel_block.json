@@ -1,0 +1,14 @@
+{
+  "type": "endertransport:alloying",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "output": {
+    "item": "endertransport:steel_block"
+  }
+}
